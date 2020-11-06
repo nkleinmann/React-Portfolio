@@ -8,7 +8,7 @@ function Projects(props) {
             <h1>Projects</h1>
             <Thumbnail
             link="/"
-            image="https://i.imgur.com/qE2okvc.png"
+            image=""
             title="Nicole Kleinmann"
             category="Profile"
             />

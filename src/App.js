@@ -18,7 +18,6 @@ function App() {
     <Route path="/about" component={About} />
 
       <div className="navigation">
-        <img src={logo} className="logo" width="260" height="260" alt="Logo Image" />
         <div className="navigation-sub">
           <Link to="/" className="item">Project</Link>
           <Link to="/articles" className="item">Articles</Link>

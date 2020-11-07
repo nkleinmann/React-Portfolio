@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
 
-      <div className="App">
+      <div className="App container-fluid">
         {/* Set up Router */}
 
         {/* Resource: https://www.framer.com/blog/posts/react-portfolio/ */}

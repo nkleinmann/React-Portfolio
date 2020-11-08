@@ -7,16 +7,14 @@ function Projects(props) {
     return (
         <div>
             {/* key={props.portfolioInfo.name.toString()} */}
-            <div className="row">
-                <div className="col-12 card text-center border">
-                    <img src={props.image} className="card-img-top" alt={props.name} />
+            <div className="row transparent">
+                <div className="col-4 text-center">
+                    <h4>{props.portfolioInfo.name}</h4>
+                    <img src={props.portfolioInfo.image} width="260" height="260" alt={props.portfolioInfo.name} />
                 </div>
-            </div>
-            <div className="row">
-                <div className="col-12">
-                    <h4 className="text-white">{props.name}</h4>
-                    <p className="text-white">{props.description}</p>
-                </div>
+                    <div className="col-8">
+                        <p>{props.portfolioInfo.description}</p>
+                    </div>
             </div>
         </div>
     )

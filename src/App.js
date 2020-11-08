@@ -7,6 +7,7 @@ import Projects from './components/Projects.js';
 import Contact from './components/ContactInfo.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
+import Footer from './components/Footer/Footer.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +18,6 @@ function App() {
       <div className="App container-fluid background">
         {/* Set up Router */}
 
-        <Header />
 
         {/* Resource: https://www.framer.com/blog/posts/react-portfolio/ */}
         <div className="row navigation navbar navbar-light bg-light">
@@ -29,12 +29,14 @@ function App() {
           </div>
         </div>
 
+        <Header />
+
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
 
-        
+        <Footer />
       </div>
     </BrowserRouter>
   );

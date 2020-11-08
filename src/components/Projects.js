@@ -5,8 +5,9 @@ import Thumbnail from './Thumbnail';
 function Projects(props) {
     return (
         <div className="home">
-            <div>
-                <h1>Projects</h1>
+            <br />
+            <div className = "transparent">
+                <h3>Projects</h3>
                 <Thumbnail
                     link="/"
                     image=""

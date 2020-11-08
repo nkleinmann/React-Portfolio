@@ -3,9 +3,12 @@ import React from "react";
 function Home(props) {
     return (
         <div className="row home">
-            <div className="col-12">
-                <h1 className="align-middle">Nicole Kleinmann's Portfolio</h1>
-                {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.6" d="M0,160L60,186.7C120,213,240,267,360,245.3C480,224,600,128,720,106.7C840,85,960,139,1080,144C1200,149,1320,107,1380,85.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> */}
+            <div className="col-12 justify-content-center">
+                <h3 className="center">"You don't take a photograph, you make it."</h3>
+                {/* <h4>~ Ansel Adams</h4> */}
+                <h3 className="center">"I want to put a ding in the universe."</h3>
+                {/* <h4>~ Steve Jobs</h4> */}
+
             </div>
         </div>
     )

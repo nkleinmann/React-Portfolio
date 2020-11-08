@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 // Imports the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Header from './components/Header/Header.js'
-import Projects from './components/Projects.js';
+import Header from './components/Header/Header.js';
+import Portfolio from './components/Portfolio.js'
 import Contact from './components/ContactInfo.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
@@ -24,7 +23,7 @@ function App() {
           <div className=" col-12 navigation-sub">
             <Link to="/" className="item navbar-brand">Home </Link>
             <Link to="/about" className="item navbar-brand">About Me </Link>
-            <Link to="/projects" className="item navbar-brand">Projects </Link>
+            <Link to="/portfolio" className="item navbar-brand">Projects </Link>
             <Link to="/contact" className="item navbar-brand">Contact Info</Link>
           </div>
         </div>
@@ -34,7 +33,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/portfolio" component={Portfolio} />
 
         <Footer />
       </div>

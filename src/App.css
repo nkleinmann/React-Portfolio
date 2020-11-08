@@ -49,3 +49,7 @@ div.home {
   height: 600px;
   /* justify-content: 'center'; */
 }
+
+div.about {
+  background-color: rgba(220,220,220,.8);
+}

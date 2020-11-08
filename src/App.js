@@ -13,18 +13,18 @@ function App() {
   return (
     <BrowserRouter>
 
-      <div className="App container-fluid">
+      <div className="App container-fluid background">
         {/* Set up Router */}
 
         {/* Resource: https://www.framer.com/blog/posts/react-portfolio/ */}
-        <div className="row navigation navbar navbar-light bg-light">
+        <header className="row navigation navbar navbar-light bg-light">
           <div className=" col-12 navigation-sub">
             <Link to="/" className="item navbar-brand">Home </Link>
             <Link to="/about" className="item navbar-brand">About Me </Link>
             <Link to="/projects" className="item navbar-brand">Projects </Link>
             <Link to="/contact" className="item navbar-brand">Contact Info</Link>
           </div>
-        </div>
+        </header>
 
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

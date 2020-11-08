@@ -1,14 +1,12 @@
 import React from "react";
-import projects from "../utils/projectData";
-import Thumbnail from './Thumbnail';
 
 function Projects(props) {
     return (
         <div>
             {/* key={props.portfolioInfo.name.toString()} */}
-            <div className="row transparent">
+            <div className="row transparent m-3">
                 <div className="col-md-4 col-sm-12 text-center">
-                    <h4>{props.portfolioInfo.name}</h4>
+                <h2>{props.portfolioInfo.name}</h2>
                     <img src={props.portfolioInfo.image} width="260" height="260" alt={props.portfolioInfo.name} />
                 </div>
                     <div className="col-md-8 col-sm-12 mt-5">

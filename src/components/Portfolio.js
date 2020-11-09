@@ -12,7 +12,7 @@ function Portfolio(props) {
             </div>
             <div className="row">
                 {projects.map(portfolioInfo => {
-                    console.log(portfolioInfo);
+                    // console.log(portfolioInfo);
                     return (
                     <Projects key={portfolioInfo.name.toString()} portfolioInfo={portfolioInfo} />
                     )

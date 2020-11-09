@@ -14,7 +14,7 @@ function About(props) {
                     <img src="https://i.imgur.com/qE2okvc.png" className="profileImage img-fluid" width="300" height="300" alt="Logo Image" />
                 </div>
                 <br />
-                <div className="col-md-6 col-sm-12 mt-3">
+                <div className="col-md-6 col-sm-12 mt-3 my-auto">
                     <p>My name is Nicole Kleinmann and I just completed a coding bootcamp in full stack web development. I am currently a Math Curriculum and Content Developer at <a href="https://mathspace.co/us" target="_blank">Mathspace</a>.
                         Prior to working at Mathspace, I was a High School Math and Computer Science teacher for
                         four years.</p>

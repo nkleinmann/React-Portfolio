@@ -1,6 +1,6 @@
 import React from 'react';
 // Imports the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import Header from './components/Header/Header.js';
 import Portfolio from './components/Portfolio.js'
 import Contact from './components/ContactInfo.js';
@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
 
       <div className="App container-fluid background">
         {/* Set up Router */}
@@ -37,7 +37,7 @@ function App() {
 
         <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

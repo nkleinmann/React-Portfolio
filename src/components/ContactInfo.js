@@ -3,7 +3,7 @@ import Pdf from '../assets/Resume.pdf'
 
 function Contact(props) {
     return (
-        <div>
+        <div className="grid">
             <h3>Contact Info</h3>
             <div class="row transparent contact m-3">
             </div>

@@ -4,7 +4,7 @@ import Projects from "../components/Projects.js"
 
 function Portfolio(props) {
     return (
-        <div>
+        <div className="grid">
             <div className="row">
                 <div className="col-12">
                     <h3>Projects</h3>

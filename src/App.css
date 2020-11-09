@@ -66,8 +66,17 @@ div.home {
   height: 50vh;
 }
 
+/* div.grid {
+  height: 50vh;
+} */
+
 /* footer */
 div.footer {
   color: black;
   background-color: rgba(240,240,240,.8);
+  text-align: center;
+  border-top-width: 5px;
+  bottom: 0px;
+  padding: 5px;
+  /* position: relative; */
 }

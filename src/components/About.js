@@ -9,7 +9,7 @@ function About(props) {
                 </div>
             </div>
             <br />
-            <div className="row transparent">
+            <div className="row transparent m-3">
                 <div className="col-md-6 col-sm-12">
                     <img src="https://i.imgur.com/qE2okvc.png" className="profileImage img-fluid" width="300" height="300" alt="Logo Image" />
                 </div>
